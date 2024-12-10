@@ -7,6 +7,7 @@ import jwt from "jsonwebtoken";
 const app = express();
 //post
 app.post('/api/v1/signup',(req,res)=>{
+    //zod validation
 
 })
 
