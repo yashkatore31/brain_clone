@@ -4,7 +4,10 @@
   "description": "brain app like app clone using typescript, mongoodb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -b",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +20,6 @@
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
-    "@types/jsonwebtoken": "^9.0.7",
-    "@types/mongoose": "^5.11.96"
+    "@types/jsonwebtoken": "^9.0.7"
   }
 }
